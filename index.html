@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>UDP Chatroom</title>
+
+    <link rel="stylesheet" href="static/style.css">
+
+</head>
+
+<body>
+
+<div class="chat-container">
+
+    <div class="header">
+        UDP Chatroom
+    </div>
+
+    <div class="main-content">
+
+        <!-- Chat Area -->
+        <div id="chat-box">
+
+            <div class="message system">
+                Welcome to Chatroom
+            </div>
+
+        </div>
+
+        <!-- Right Side Panel -->
+        <div class="users-panel">
+
+            <!-- Current User Box -->
+            <div class="current-user-box">
+
+                <div class="current-user-title">
+                    Logged In As
+                </div>
+
+                <div id="current-user">
+                    Not Set
+                </div>
+
+            </div>
+
+            <h3>Online Users</h3>
+
+            <ul id="users-list"></ul>
+
+        </div>
+
+    </div>
+
+    <!-- Input Panel -->
+    <div class="input-panel">
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Please enter a valid username">
+
+        <input
+            type="text"
+            id="message"
+            placeholder="Type your message">
+
+        <select id="recipient">
+
+            <option value="ALL">
+                Send to All
+            </option>
+
+        </select>
+
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
+    </div>
+
+    <!-- Warning -->
+    <div class="warning-bar">
+        Username can be entered only once. After sending your first message, it cannot be changed.
+    </div>
+
+</div>
+
+<script src="static/script.js"></script>
+
+</body>
+</html>
