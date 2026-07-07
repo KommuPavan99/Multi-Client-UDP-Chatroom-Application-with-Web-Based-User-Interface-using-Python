@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-The **Multi-Client UDP Chatroom Application** is a real-time communication system developed using **Python** with a **web-based user interface**. It enables multiple users to communicate simultaneously through public and private messaging. The project demonstrates concepts of **UDP socket programming**, **client-server architecture**, and **frontend-backend integration**.
+The **Multi-Client UDP Chatroom Application** is a real-time communication system developed using **Python** with a **web-based user interface**. It enables multiple users to communicate simultaneously through public and private messaging. The project demonstrates the implementation of **UDP socket programming**, **client-server architecture**, and **frontend-backend integration**.
 
 The project was developed using **Ubuntu (WSL)** and **Visual Studio Code**.
 
@@ -11,7 +11,7 @@ The project was developed using **Ubuntu (WSL)** and **Visual Studio Code**.
 ## 🚀 Features
 
 - 🌐 Multi-client communication
-- 💬 Public chat (Broadcast Messages)
+- 💬 Public chat (Broadcast Messaging)
 - 🔒 Private Messaging
 - 👥 Online Users List
 - 📝 Username Locking
@@ -35,17 +35,12 @@ The project was developed using **Ubuntu (WSL)** and **Visual Studio Code**.
 
 ---
 
-
-```
-
----
-
 ## 🏗️ System Architecture
 
-```
+```text
                 +-------------------------+
-                |     Web Browser         |
-                |   HTML / CSS / JS UI    |
+                |      Web Browser        |
+                |    HTML / CSS / JS UI   |
                 +-----------+-------------+
                             |
                      HTTP Requests
@@ -69,15 +64,14 @@ The project was developed using **Ubuntu (WSL)** and **Visual Studio Code**.
 
 ## ✨ Functionalities
 
-- Multiple users can join the chatroom.
-- Public messages are visible to all users.
-- Private messages are visible only to the sender and recipient.
-- Displays online users dynamically.
-- Username becomes non-editable after joining.
-- Simple and responsive browser interface.
+- Supports multiple users joining the chatroom simultaneously.
+- Broadcast messages are visible to all connected users.
+- Private messages are visible only to the sender and the intended recipient.
+- Displays the list of online users dynamically.
+- Username becomes non-editable after joining the chatroom.
+- Provides a clean and responsive browser-based interface.
 
 ---
-
 
 ## 📸 Features Demonstrated
 
@@ -105,7 +99,7 @@ The project was developed using **Ubuntu (WSL)** and **Visual Studio Code**.
 
 ## 🧪 Testing
 
-The application was tested for:
+The application was tested for the following scenarios:
 
 - Multi-user connectivity
 - Public message broadcasting
@@ -126,29 +120,33 @@ The application was tested for:
 - End-to-End Encryption
 - WebSocket Integration
 - Cloud Deployment
-- Mobile Application
+- Mobile Application Support
 
 ---
 
 ## 💻 Development Environment
 
-- **Operating System:** Ubuntu 24.04 (WSL)
-- **IDE:** Visual Studio Code
-- **Programming Language:** Python 3
-- **Frontend:** HTML, CSS, JavaScript
-- **Version Control:** Git & GitHub
+| Component | Details |
+|-----------|---------|
+| Operating System | Ubuntu 24.04 (WSL) |
+| IDE | Visual Studio Code |
+| Programming Language | Python 3 |
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | Python HTTP Server |
+| Version Control | Git & GitHub |
 
 ---
 
 ## 📖 Learning Outcomes
 
-This project enhanced practical knowledge of:
+This project provided hands-on experience in:
 
 - UDP Networking
 - Socket Programming
 - Client-Server Communication
-- Full-Stack Web Development
+- Frontend-Backend Integration
 - Real-Time Messaging Systems
+- Full-Stack Web Development
 - Git & GitHub Workflow
 
 ---
@@ -161,4 +159,4 @@ This project enhanced practical knowledge of:
 
 ## 📄 License
 
-This project is developed for **academic and educational purposes**.
+This project was developed for **academic and educational purposes**.
