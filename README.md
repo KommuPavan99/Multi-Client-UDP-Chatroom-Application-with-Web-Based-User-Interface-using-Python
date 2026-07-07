@@ -35,18 +35,7 @@ The project was developed using **Ubuntu (WSL)** and **Visual Studio Code**.
 
 ---
 
-## 📂 Project Structure
 
-```text
-CHATROOM_PROJECT/
-│
-├── webserver.py
-├── index.html
-├── README.md
-│
-└── static/
-    ├── style.css
-    └── script.js
 ```
 
 ---
@@ -89,35 +78,6 @@ CHATROOM_PROJECT/
 
 ---
 
-## ▶️ Installation & Execution
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/multi-client-udp-chatroom.git
-```
-
-### Move to the Project Directory
-
-```bash
-cd multi-client-udp-chatroom
-```
-
-### Start the Server
-
-```bash
-python3 webserver.py
-```
-
-### Open in Browser
-
-```
-http://localhost:8000
-```
-
-Open multiple browser tabs/windows to test multi-user communication.
-
----
 
 ## 📸 Features Demonstrated
 
