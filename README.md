@@ -42,7 +42,7 @@ The project was developed using **Ubuntu (WSL)** and **Visual Studio Code**.
 
 ## 🏗️ System Architecture
 
-```text
+```
                 +-------------------------+
                 |     Web Browser         |
                 |   HTML / CSS / JS UI    |
